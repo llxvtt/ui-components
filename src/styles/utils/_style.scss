@@ -1,0 +1,28 @@
+// containers
+.container {
+      max-width: 1324px;
+      margin: 0 auto;
+}
+
+// buttons
+.btn {
+      font-family: "Inter";
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 100%;
+      letter-spacing: 0.4px;
+      color: white;
+      border-radius: 10px;
+
+      cursor: pointer;
+}
+
+.btn-red {
+      background: var(--btn-red) url("@/assets/images/btn-texture.png");
+      padding: 24px 58px;
+}
+
+.btn-purple {
+      background: var(--btn-purple) url("@/assets/images/btn-texture.png");
+      padding: 24px 98px;
+}
